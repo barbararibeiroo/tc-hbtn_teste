@@ -16,14 +16,14 @@ public class OperacaoBasicaTeste {
 	}
 
 	public static boolean testar_multiplicacao() {
-		if(OperacaoBasica.subtrair(5, 3) == 15) {
+		if(OperacaoBasica.multiplicar(5, 3) == 15) {
 			return true;
 		}
 		return false;
 	}
 
 	public static boolean testar_divisao() {
-		if(OperacaoBasica.subtrair(5, 3) == 3) {
+		if(OperacaoBasica.dividir(5, 3) == 3) {
 			return true;
 		}
 		return false;
