@@ -24,9 +24,9 @@ public class OperacaoBasicaTeste {
 
 	public static boolean testar_primo_menor_zero() {
 		if (OperacaoBasica.numero_primo(-2).equals("Número invalido. Numero menor ou igual a 1 não é primo")) {
-			return true;
+			return false;
 		}
-		return false;
+		return true;
 	}
 
 }
